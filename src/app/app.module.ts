@@ -23,6 +23,7 @@ import { RouterModule } from '@angular/router';
   
   declarations: [RootComponent, FooterComponent, MenuComponent, DeleteComponent, ListingComponent, RegisterComponent, HomeComponent],
   
+  providers: [],
   bootstrap: [RootComponent]
 })
 export class AppModule {}
