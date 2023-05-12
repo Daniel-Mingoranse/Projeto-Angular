@@ -10,11 +10,8 @@ declare var $: any;
 export class RegisterComponent implements OnInit {
   constructor() { }
 
-  ngOnInit(): void {
-    $('#meu-campo-de-valor').maskMoney({
-      prefix: 'R$ ',
-      decimal: ',',
-      thousands: '.'
-    });
+  ngOnInit(){
+
   }
-}
+ }
+
