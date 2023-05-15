@@ -9,19 +9,21 @@ import { ListingComponent } from './pages/listing/listing.component';
 import { RegisterComponent } from './pages/register/register.component';
 import { HomeComponent } from './pages/home/home.component';
 import { RouterModule } from '@angular/router';
+import { ModifyComponent } from './pages/modify/modify.component';
 
 
 
 @NgModule({
-  imports: [CommonModule, BrowserModule, RouterModule.forRoot([
+  imports: [CommonModule, BrowserModule,RouterModule.forRoot([
     {path: '',component: HomeComponent},
     {path: 'delete',component: DeleteComponent},
     {path: 'listing',component: ListingComponent},
     {path: 'register',component: RegisterComponent},
+    {path: 'modify',component: ModifyComponent},
     
   ])],
   
-  declarations: [RootComponent, FooterComponent, MenuComponent, DeleteComponent, ListingComponent, RegisterComponent, HomeComponent],
+  declarations: [RootComponent, FooterComponent, MenuComponent, DeleteComponent, ListingComponent, RegisterComponent, HomeComponent, ModifyComponent],
   
   providers: [],
   bootstrap: [RootComponent]
