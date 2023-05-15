@@ -1,0 +1,53 @@
+<h1>Atualizar Dados do Produto #0001</h1>
+
+<section class="register">
+  <form>
+    <div class="form-group">
+      <label for="produto">Produto:</label>
+      <input
+        type="text"
+        class="form-control"
+        id="produto"
+        placeholder="Nome do produto"
+      />
+    </div>
+    <div class="form-group">
+      <label for="descricao">Descrição:</label>
+      <textarea
+        class="form-control"
+        id="descricao"
+        rows="3"
+        placeholder="Descrição do produto"
+      ></textarea>
+    </div>
+    <div class="form-group">
+      <label for="valor">Valor:</label>
+      <input
+        type="number"
+        class="form-control"
+        id="valor"
+        placeholder="Valor do produto"
+      />
+    </div>
+    <div class="form-group">
+      <label for="data-cadastro">Data de Cadastro:</label>
+      <input type="date" class="form-control" id="data-cadastro" />
+    </div>
+    <div class="form-group">
+      <label for="quantidade">Quantidade:</label>
+      <input
+        type="number"
+        class="form-control"
+        id="quantidade"
+        placeholder="Quantidade do produto"
+      />
+    </div>
+    <button type="submit" class="btn btn-primary">Salvar</button>
+
+    <button class="btn btn-info" (click)="clear()">Limpar</button>
+  </form>
+</section>
+<!-- jQuery -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<!-- MaskMoney -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-maskmoney/3.0.2/jquery.maskMoney.min.js"></script>

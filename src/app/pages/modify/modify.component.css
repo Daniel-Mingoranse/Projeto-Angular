@@ -1,0 +1,22 @@
+.register{
+  display: flex;
+   justify-content: center;
+   align-items: center;
+ }
+ 
+ 
+ form{
+   width: 50%;
+   margin: 1%;
+ }
+ 
+ h1{
+  text-align: center;
+  margin: 2%;
+ }
+
+
+ button{
+   margin-right: 1%;
+   border: 1px solid rgba(0, 0, 0, 0.342);
+ }
