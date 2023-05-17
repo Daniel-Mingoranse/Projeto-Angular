@@ -13,7 +13,7 @@ import { ModifyComponent } from './pages/modify/modify.component';
 
 
 @NgModule({
-  imports: [CommonModule, BrowserModule,RouterModule.forRoot([
+  imports: [CommonModule, BrowserModule, RouterModule.forRoot([
     {path: '',component: HomeComponent},
     {path: 'listing',component: ListingComponent},
     {path: 'register',component: RegisterComponent},
