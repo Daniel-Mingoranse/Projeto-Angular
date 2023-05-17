@@ -13,5 +13,15 @@ export class RegisterComponent implements OnInit {
   ngOnInit(){
 
   }
+  clear() {
+    let input  = document.querySelectorAll('input');
+    var textArea = document.getElementById('descricao') as HTMLTextAreaElement; 
+    
+    console.log(textArea )
+    
+    for(let i=0; i<= input.length; i++){
+      input[i].value = ''
+    }
+   }
  }
 

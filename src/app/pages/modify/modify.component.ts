@@ -12,9 +12,12 @@ export class ModifyComponent implements OnInit {
   }
   clear() {
    let input  = document.querySelectorAll('input');
-   console.log(input)
-   //  for(let i=0; i<= input.lenght; i++){
-  //    input[i].value = 'null'
-  //  }
+   var textArea = document.getElementById('descricao') as HTMLTextAreaElement; 
+   
+   console.log(textArea )
+   
+   for(let i=0; i<= input.length; i++){
+     input[i].value = ''
+   }
   }
 }
